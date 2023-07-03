@@ -1,0 +1,168 @@
+
+body {
+    margin: 0;
+}
+
+
+/* Headings */
+.section-heading {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Containers */
+
+.container {
+    padding: 2% 4%;
+}
+
+.row {
+    margin-top: 25px;
+}
+
+
+/* NAV-BAR */
+nav.navbar.navbar-expand {
+    padding-bottom: 0;
+}
+
+.navbar {
+    padding-top: 3px;
+    background-color: #121212;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link {
+    padding: auto 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: center;
+    letter-spacing: 0.3px;
+    border-radius: 4px;
+    padding: 5px 120px;
+    margin: 9px;
+}
+
+.menu:hover {
+    background-color: #242425;
+}
+
+.nav-icon {
+    border-radius: 4px;
+}
+
+.nav-icon:hover {
+    background-color: #242425;
+}
+
+.breaker {
+    background-color: #383838;
+    width: 1.3px;
+    height: 30px;
+    margin: auto 10px;
+}
+
+.mtop {
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+#search {
+    text-align: left;
+    
+}
+
+#search:focus {
+    border: solid 3px;
+    border-color: #e6b91e;
+}
+
+
+/* TITLE */
+#header {
+    background-color: black;
+    height: 100vh;
+}
+
+.imdb {
+    font-family: 'Anton', sans-serif;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+#imdbLogo {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+input {
+    width: 55rem;
+    text-align: left;
+}
+
+/* DISAPPEAR */
+
+.disappear {
+    text-align: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    visibility: visible;
+}
+
+section.disappear {
+    background-color: #1f1f1f;
+}
+
+.content-section {
+    color: white;
+    text-align: left;
+}
+
+.section-link {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    padding-left: 35px;
+}
+
+.section-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.cross {
+    cursor: pointer;
+}
+
+.bg {
+    background-color: #1f1f1f;
+    padding: 0;
+}
+
+/* Carousel-section */
+
+#carousel-section {
+    margin: auto 5%;
+}
